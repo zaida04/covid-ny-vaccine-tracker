@@ -1,0 +1,20 @@
+{
+  "name": "covid-ny-testing-tracker",
+  "version": "1.0.0",
+  "description": "Track when the nearest covid vaccine facility is avaliable (NY ONLY)",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "dev": "npm run build && npm run start"
+  },
+  "author": "Zaid \"Nico\"",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^7.1.0",
+    "twilio": "^3.56.0",
+    "typescript": "^4.1.5"
+  }
+}
